@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <!-- 
+         Patel, Arzoo
+         Project #4
+         Fall 2017
+    -->
+    <head>
+    	        <title>Bertha's Deluxe Chocolates</title>
+        <link rel="icon" type="image/png" href="logo.png"/>
+        <link rel = "stylesheet"
+              type = "text/css"
+              href = "index.css" />
+            <link rel = "stylesheet"
+              type = "text/css"
+              href = "order.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="Order_online.js"></script>
+        <script src="Shopping_cart.js"></script>
+        <script src="validate.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>
+  
+  </script>
+    </head>
+    <body>
+    	<header>
+    		<div id="CompanyName">Bertha's Deluxe Chocolates</div>
+        <a href="index.html"><div class="Menulist">Home</div></a>
+        <a href="products.html"><div class="Menulist">Products</div></a>
+        <a href="orderonline.html"><div class="Menulist">Order Online</div></a>
+        <a href="aboutus.html"><div class="Menulist">About Us</div></a>
+        <a href="contact.html"><div class="Menulist">Contact</div></a>
+    	</header>
+      <div class="Content">
+        <div id="cart">            
+        </div>
+        <div id="dialog-form" title="Enter your details">
+  
+ 
+  <form action="http://jadran.sdsu.edu/perl/jadrn043/read_cookie.cgi">
+    <fieldset>
+       <table width="100%"  border="0"  >
+                     <tr>
+                        <td colspan="2" class="Address"> Billing address:</td>
+                         <td colspan="2" class="Address"> Shipping address:</td>  </tr>
+                    <tr>
+                     <td>
+                         First Name                                           
+                        </td>
+                        <td>                        
+                            <input name="Fname" type = "text" id="Fname" required />                        
+                        </td>
+                        <td>
+                         First Name
+                          </td>
+                        <td>
+                     
+                            <input name="SFname" type = "text" id="SFname"  required/>
+                        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input name="Lname" type = "text" id="Lname" required/></td>
+                        <td>Last Name</td>
+                        <td><input name="SLname" type = "text" id="SLname" required /></td>
+                    </tr>
+                     <tr>
+                        <td>Address 1</td>
+                        <td><input name="A01" type = "text" id="A01" required /></td>
+                        <td>Address 1</td>
+                        <td><input name="SA01" type = "text" id="SA01" required/></td>
+                    </tr>
+                     <tr>
+                        <td>Address 2</td>
+                        <td><input name="A02" type = "text" id="A02" required/></td>
+                        <td>Address 2</td>
+                        <td><input name="SA02" type = "text" id="SA02" required/></td>
+                    </tr>
+                     <tr>
+                        <td>City</td>
+                        <td><input name="City" type = "text" id="City" required /></td>
+                        <td>City</td>
+                        <td><input name="SCity" type = "text" id="SCity" required/></td>
+                    </tr>
+                     <tr>
+                        <td>State</td>
+                        <td><input  name="State" type = "text" placeholder="AA" id="State" required/></td>
+                        <td>State</td>
+                        <td><input  name="SState" type = "text" placeholder="AA" id="SState" required/></td>
+                    </tr>
+                      <tr>
+                        <td>Zip Code</td>
+                        <td>  <input name="ZipCode" type = "text" id="ZipCode" /></td>
+                        <td>Zip Code</td>
+                        <td>  <input name="SZipCode" type = "text" id="SZipCode" /></td>
+                    </tr>
+                      <tr>
+                        <td>Country</td>
+                        <td> <input name="Country" type = "text" id="Country" required/></td>
+                        <td>Country</td>
+                        <td> <input name="SCountry" type = "text" id="SCountry"  required/></td></td>
+                    </tr>
+                     <tr>
+                        <td>Phone num</td>
+                        <td> <input name="PhNum" type = "text" id="PhNum" /></td>
+                        <td>Email ID</td>
+                        <td> <input name="E_id" type = "email" id="E_id" required /></td>
+                    </tr>
+                     <tr>
+                        <td colspan="4"><input  type = "checkbox" id="checkbox" name="checkbox"/>Shipping address Same as Billing adress</br></br></td>
+                       
+                    </tr>
+
+                     <tr>
+                        <td colspan="4" class="Address"> Card details</td>
+                       
+                    </tr>
+                     <tr>
+                        <td>Card number:</td>
+                        <td><input name="cardno" type = "text" id="cardno" placeholder="xxxxxxxxxxxxxxxx" required /></td>
+                        <td>Name on card</td>
+                        <td><input name="NameOnCard" type = "text" id="NameOnCard" required /></td>
+                    </tr>
+                     <tr>
+                        <td>Exp</td>
+                        <td><input  type = "text" id="Month" name="Month" placeholder="MM" required class="Small" />
+                          <input  type = "text" id="Year" name="Year" placeholder="YY" required class="Small" /></td>
+                        <td>CVV</td>
+                        <td><input type = "text" id="CVV" name="CVV" placeholder="xxx" required /></td>
+                    </tr>
+                      <tr><td><input type = "hidden" name="Total_Price" id="Total_Price" value="0" /></td></tr>
+                      <tr><td><input type = "hidden" name="Items" id="Items" value="0" /></td></tr>
+                     <tr>
+                      <td colspan="4"></br></td>
+                    </tr>
+                    <tr>
+                      <td colspan="4"><input type = "submit" id="Placeorder" name="Placeorder" value="Place Order" class="Address" /></td>
+                    </tr>
+
+              </table>
+    </fieldset>
+  </form>
+</div>
+ 
+
+      </div>  
+    </body>
+</html>

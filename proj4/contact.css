@@ -1,0 +1,61 @@
+body{
+	color: #421d03;
+}
+#pr{
+	font-size: 20px;
+	margin-left: 10%;
+	margin-bottom: 1%;
+}
+.Lable{
+	font-size: 22px;
+	margin-left: 10%;
+	font-family: sans-serif;
+}
+.Input{
+	margin:1.6vh 0;
+	font-size: 18px;
+	width: 85%;
+	height: 4vh;
+	font-family: sans-serif;
+}
+#Input1{
+	margin:1.6vh 0;
+	font-size: 18px;
+	width: 85%;
+	height: 10vh;
+	font-family: sans-serif;
+}
+#Button{
+	margin:1.6vh 0;
+	font-size: 22px;
+	width: 77.2%;
+	height: 6vh;
+	font-family: sans-serif;
+	color: white;
+	background-color: #421d03;
+	margin-left: 10%;
+	border: none;
+}
+.Bottom{
+	width: 76%;
+	height: 9vh;
+	margin-top: 7vh;	
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: right;
+	background-color: #f9f2ea;
+	padding:2%;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+#Name{
+	font-size: 22px;
+}
+#query{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20vh;
+	margin-left: 25%;
+}

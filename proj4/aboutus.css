@@ -1,0 +1,23 @@
+body{
+	color:#421d03;
+}
+p{
+	margin:0 5%;
+	font-size: 20px;
+	text-align: justify;
+}
+#Overview{
+	margin: 10vh;
+	font-size: 22px;
+	font-family: cursive;
+	text-align: center; 
+	margin-bottom: 5vh;
+	font-weight: bold;
+}
+.Manifesto{
+	margin:0 5%;
+	font-size: 19px;
+	text-align: center;
+	font-family: cursive;
+	margin-bottom: 10vh;
+}

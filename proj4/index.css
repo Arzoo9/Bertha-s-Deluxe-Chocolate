@@ -1,0 +1,107 @@
+body{
+	color: #421d03;
+	margin:0;
+}
+header{
+	height: 100vh;
+	width: 24%;
+	background-color: #421d03;
+	position: fixed;
+	float: left;
+	top: 0;
+	left: 0;
+}
+#CompanyName{
+	margin-top: 15vh;
+	margin-left: 7%;
+	margin-bottom: 10vh;
+	color: white;
+	font-size: 42px;
+}
+.Menulist{
+	margin-left: 7%;
+	width:80%;
+	height: 6vh;
+	border: 0px solid white;
+	font-size: 25px;
+	color: white;
+	padding-top: 1.5vh;
+	padding-left: 7%;
+}
+.Menulist:hover{
+	color: #421d03;
+	background-color: white;
+	font-weight: bold;
+} 
+a{
+	text-decoration: none;
+	color: white;	
+}
+.Content{
+	margin-left: 24%;	
+}
+h1{
+	margin:5%;
+	text-align: center;
+	margin-top: 11vh;
+	font-family: cursive;
+	margin-bottom: 3.5vh;
+}
+#Button{
+	margin-top:1.1vh;
+	margin-bottom: 10vh;
+	font-size: 26px;
+	width: 90.8%;
+	height: 6vh;
+	font-family: sans-serif;
+	color: white;
+	background-color: #421d03;
+	margin-left: 5%;
+	border: none;
+	cursor: pointer;
+}
+.Text{
+	color: #421d03;
+	font-size: 45px;
+	margin-left: 9%;
+	font-weight: bold;
+	margin-top: 6vh;
+}
+
+.picture1{
+	margin-left: 5%;
+	width:44%;
+	padding: .7%;
+}
+.picture2{
+		margin-left: 7%;
+	float: left;
+	width:220px;
+	padding: .7%;
+}
+#Confirm{
+	margin-left: 16%;
+	width: 65%;
+	margin-top: 10vh;
+	color: #421d03;
+	text-align: center;
+	font-size: 40px;
+}
+.Orders{
+	margin-left: 37%;
+}
+#nullcart{
+	width: 100%;
+	font-size: 35px;
+	color: #421d03;
+	text-align: center;
+	margin-top: 15vh;
+}
+#ch{
+	background-color: #421d03;
+	width: 24%;
+	height: 6vh;
+	font-size: 25px;
+	margin-left: 38%;
+	text-align: center;
+}

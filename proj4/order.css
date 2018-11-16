@@ -1,0 +1,58 @@
+#cart{
+			margin-top: 11vh;
+		padding:0 1%;
+		display: table;
+		width: 98%;
+		border: 0px solid black;
+}
+.Items_Display{
+	width: 270px;	
+	text-align: left;
+	float: left;
+	margin-left: 1.5%;
+	border: 2px solid whitesmoke;
+	margin-bottom: 2%;
+	height: 200px;
+}
+.Chocolate_Name{
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	min-height: 5vh;
+}
+.OrderDetails{
+
+	width: 100%;
+	margin-top: 40vh;
+	height: 30vh;
+	display: table;
+	
+}
+#Order{
+	font-size: 30px;
+	font-family: serif;
+	font-weight: bold;
+	margin-left: 3%;
+	float: left;
+	height: 30vh;
+}
+.data{
+	text-align: center;
+	margin-top: 2vh;
+	margin-right: 54%;
+	font-size: 19px;
+}
+.Address{
+	font-weight: bold;
+	font-size: 20px;
+}
+.Small{
+	width: 25%;
+}
+fieldset{
+	border: none;
+}
+.checkout{
+	width: 30%;
+	height: 5vh;
+}
